@@ -1,0 +1,328 @@
+/* section home */
+.container-fluid-home {
+    text-align: center;
+    background-color: #eeead7;
+    padding: 4rem 0% 0% 0%;
+
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+/* navbar */
+.container-fluid-navbar {
+    padding: 0% 5%;
+    background-color: #4c8974;
+}
+
+.navbar-logo {
+    padding: 4px 7px;
+    margin: 0.3% 0% 0.3% 0%;
+    border-radius: 56%;
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: #407160;
+}
+
+.navbar {
+    padding-top: 0rem;
+    text-align: left;
+    padding-bottom: 0rem;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+
+
+
+
+
+/* section home */
+
+.upper-cloud-div {
+    position: absolute;
+    z-index: 1;
+    width: 94%;
+    margin: 0% 3% 0% 3%;
+}
+
+.lower-cloud-div {
+    position: absolute;
+    z-index: 1;
+    margin: 8% 3% 0% 3%;
+    width: 94%;
+}
+
+.upper-cloud {
+    width: 15%;
+}
+
+.lower-cloud {
+    width: 8%;
+}
+
+.home-content-div {
+    padding: 8% 0%;
+}
+
+.hii {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: #2b5043;
+}
+
+.prakash {
+    font-size: 3.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #2b5043;
+}
+
+#changingText {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.castle-img {
+    width: 78%;
+}
+
+
+
+
+@keyframes moveCloudAnimation {
+    0% {
+        transform: translateX(-250%);
+        /* Start position */
+    }
+
+    100% {
+        transform: translateX(280%);
+        /* End position */
+    }
+}
+
+.upper-cloud {
+    animation: moveCloudAnimation 80s linear infinite;
+}
+
+.lower-cloud {
+    animation: moveCloudAnimation 40s linear infinite;
+}
+
+
+
+
+
+
+/* section about */
+.h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+.container-fluid-about {
+    text-align: center;
+    padding: 3% 5%;
+}
+
+.my-image {
+    /* padding:10% 2% 10% 2%; */
+    margin: 8% 0% 8% 0%;
+    width: 17rem;
+    height: 17rem;
+    transform: rotate(-37deg);
+    border-radius: 30%;
+}
+
+.about,
+.projects {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+
+}
+
+.image-content-row {
+    padding: 3% 2% 2% 2%;
+}
+
+.about-content-coloumb {
+    padding: 3% 2% 0% 2%;
+    font-size: 1.3rem;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 2px 4px 3px #666666;
+    -webkit-box-shadow: 3px 3px 4px #407160;
+    -moz-box-shadow: 3px 3px 4px #407160;
+    box-shadow: 3px 3px 4px #407160;
+    font-family: Arial;
+    color: #fff;
+    font-size: 20px;
+    background: #407160;
+    padding: 3px 8px 3px 8px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #7bb8a3;
+    background-image: -webkit-linear-gradient(top, #7bb8a3, #2c8264);
+    background-image: -moz-linear-gradient(top, #7bb8a3, #2c8264);
+    background-image: -ms-linear-gradient(top, #7bb8a3, #2c8264);
+    background-image: -o-linear-gradient(top, #7bb8a3, #2c8264);
+    background-image: linear-gradient(to bottom, #7bb8a3, #2c8264);
+    text-decoration: none;
+
+}
+
+.cv-btn {
+    margin: 6% 0% 6% 0%;
+}
+
+.anchor-tag {
+    color: #fff;
+    text-decoration: none;
+}
+
+.anchor-tag:hover {
+    color: rgb(37, 37, 37);
+}
+
+
+
+
+
+
+
+/* section projects */
+.container-fluid-projects {
+    background-color: #eeead7;
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.calculator-image,
+.drum-image,
+.dice-image,
+.portfolio-image {
+    width: 7rem;
+    padding: 1%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.projects-content {
+    font-size: 1.3rem;
+}
+
+.projects-btn {
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #407160;
+    border-radius: 25%;
+}
+
+
+
+
+/*section contact */
+#contact {
+    background-color: #4c8974;
+    text-align: center;
+    padding: 3% 2% 0% 2%;
+}
+
+.contact_heading {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.row_contact {
+    padding: 4% 32% 3%;
+}
+
+.copy_write {
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css of about section when width of screen drops below 992px */
+@media (max-width:992px) {
+
+    .about,
+    .projects,
+    .achievements,
+    .skills,
+    .contact_heading {
+        font-size: 2.2rem;
+    }
+
+
+
+    .about-content-coloumb,
+    .projects-content {
+        font-size: 1rem;
+    }
+
+    .my-image {
+        padding: 0%;
+        margin: 8% 0% 0%;
+        width: 10rem;
+        height: 10rem;
+        transform: rotate(-37deg);
+        border-radius: 30%;
+    }
+
+}
+
+
+
+
+/* css of home body when width of screen drops below 750px */
+@media (max-width:768px) {
+    .castle-img {
+        width: 72%;
+    }
+
+    .lower-cloud-div {
+        margin: 53% 3% 0% 3%;
+    }
+
+    .lower-cloud {
+        width: 15%;
+    }
+
+    .col_contact {
+        /* text-align: left; */
+        margin: 0.5rem;
+    }
+
+}
